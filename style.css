@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.roulette {
+  position: relative;
+  height: 45vw;
+  width: 45vw;
+  background-color: rgb(253, 220, 225);
+  border-radius: 50vw;
+  border: solid 1px black;
+}
+
+.batch {
+  position: absolute;
+  height: 22vw;
+  width: 22vw;
+  background-color: rgb(230, 239, 248);
+  border: 1px solid black;
+}
+
+#clover {
+  border-top-right-radius: 100%;
+  right: 0;
+  background-image: url(/public/assets/images/leafClover.jpg);
+}
+
+#hotWater {
+  border-top-left-radius: 100%;
+  background-image: url(/public/assets/images/hotWater.jpg);
+}
+
+#kitten {
+  border-bottom-left-radius: 100%;
+  bottom: 0;
+  background-image: url(/public/assets/images/kitten.jpg);
+}
+
+#wii {
+  border-bottom-right-radius: 100%;
+  bottom: 0;
+  right: 0;
+  background-image: url(/public/assets/images/wii.jpg);
+}
