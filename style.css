@@ -3,21 +3,38 @@
   padding: 0;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .roulette {
   position: relative;
   height: 45vw;
   width: 45vw;
-  background-color: rgb(253, 220, 225);
+  background-color:  rgb(230, 239, 248);
   border-radius: 50vw;
   border: solid 1px black;
+  transition: all ease 1s;
 }
 
 .batch {
   position: absolute;
   height: 22vw;
   width: 22vw;
-  background-color: rgb(230, 239, 248);
   border: 1px solid black;
+}
+
+button {
+  position: absolute;
+  height: 6vw;
+  width: 6vw;
+  transform: translateX(-50%) translateY(-50%);
+  background-color:  rgb(230, 239, 248);
+  border-radius: 100%;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
 }
 
 #clover {
